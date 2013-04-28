@@ -1,0 +1,16 @@
+//
+   Created with JetBrains WebStorm.
+   User: Vlad
+   Date: 4/26/13
+   Time: 12:10 PM
+   To change this template use File | Settings | File Templates.
+
+extends layout
+
+block content
+    h1 Example #1
+    form(method="post")
+        input(name="name", type="text", placeholder="Name")
+        input(name="pass", type="password", placeholder="Pass")
+        button#send1(type="submit") Fire
+        a(href="/example2")= link
